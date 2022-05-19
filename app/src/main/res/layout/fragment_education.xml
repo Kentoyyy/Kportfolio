@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fcbb6d"
+    tools:context=".EducationFragment">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        app:cardCornerRadius="180dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:lottie_fileName="profile.json"
+            app:lottie_autoPlay="true"
+
+            />
+
+    </androidx.cardview.widget.CardView>
+
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="550dp"
+       android:background="@drawable/educationbg_style"
+       android:layout_gravity="bottom">
+
+       <com.airbnb.lottie.LottieAnimationView
+           android:layout_width="80dp"
+           android:layout_height="80dp"
+           app:lottie_fileName="hang.json"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="270dp"
+           app:lottie_autoPlay="true"
+           app:lottie_loop="true"
+
+           />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Education"
+           android:textSize="22dp"
+           android:fontFamily="@font/lato_bold"
+           android:textColor="#434343"
+           android:elevation="20dp"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="30dp"
+           android:textStyle="bold"/>
+
+       <ImageView
+           android:layout_width="20dp"
+           android:layout_height="20dp"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="65dp"
+           android:background="@drawable/philippines" />
+
+
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="2015"
+           android:textStyle="bold"
+           android:textColor="#434343"
+           android:id="@+id/txt2015"
+           android:textSize="15dp"
+           android:layout_marginTop="110dp"
+           android:layout_marginLeft="60dp"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="2019"
+           android:textStyle="bold"
+           android:textColor="#434343"
+          android:layout_below="@id/txt2015"
+           android:textSize="15dp"
+           android:layout_marginTop="3dp"
+           android:layout_marginLeft="60dp"/>
+
+
+       <View
+           android:layout_width="0.7dp"
+           android:layout_height="200dp"
+           android:background="#434343"
+           android:elevation="5dp"
+           android:layout_marginLeft="130dp"
+           android:layout_marginTop="90dp"/>
+
+       <View
+           android:layout_width="300dp"
+           android:layout_height="0.7dp"
+           android:background="#434343"
+
+           android:elevation="5dp"
+           android:layout_marginLeft="30dp"
+           android:layout_marginTop="180dp"/>
+
+       <View
+           android:layout_width="300dp"
+           android:layout_height="0.7dp"
+           android:background="#434343"
+
+           android:layout_marginLeft="30dp"
+           android:layout_marginTop="270dp"/>
+
+       <androidx.cardview.widget.CardView
+           android:layout_width="8dp"
+           android:layout_height="8dp"
+           android:layout_marginLeft="140dp"
+           android:layout_marginTop="131dp"
+           app:cardBackgroundColor="#434343"
+           app:cardCornerRadius="180dp" />
+
+       <androidx.cardview.widget.CardView
+           android:layout_width="8dp"
+           android:layout_height="8dp"
+           android:layout_marginLeft="40dp"
+           android:layout_marginTop="30dp"
+           app:cardBackgroundColor="#434343"
+           app:cardCornerRadius="180dp" />
+       <androidx.cardview.widget.CardView
+           android:layout_width="8dp"
+           android:layout_height="8dp"
+           android:layout_marginLeft="50dp"
+           android:layout_marginTop="30dp"
+           app:cardBackgroundColor="#434343"
+           app:cardCornerRadius="180dp" />
+       <androidx.cardview.widget.CardView
+           android:layout_width="8dp"
+           android:layout_height="8dp"
+           android:layout_marginLeft="60dp"
+           android:layout_marginTop="30dp"
+           app:cardBackgroundColor="#434343"
+           app:cardCornerRadius="180dp" />
+
+       <androidx.cardview.widget.CardView
+           android:layout_width="8dp"
+           android:layout_height="8dp"
+           android:layout_marginLeft="360dp"
+           android:layout_marginTop="30dp"
+           app:cardBackgroundColor="#434343"
+           app:cardCornerRadius="180dp" />
+       <androidx.cardview.widget.CardView
+           android:layout_width="8dp"
+           android:layout_height="8dp"
+           android:layout_marginLeft="370dp"
+           android:layout_marginTop="30dp"
+           app:cardBackgroundColor="#434343"
+           app:cardCornerRadius="180dp" />
+       <androidx.cardview.widget.CardView
+           android:layout_width="8dp"
+           android:layout_height="8dp"
+           android:layout_marginLeft="380dp"
+           android:layout_marginTop="30dp"
+           app:cardBackgroundColor="#434343"
+           app:cardCornerRadius="180dp" />
+
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Lucsuhin National High School"
+           android:textColor="#434343"
+           android:textSize="14dp"
+           android:textStyle="bold"
+           android:layout_marginTop="125dp"
+           android:layout_marginLeft="160dp"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="2019"
+           android:textStyle="bold"
+           android:textColor="#434343"
+           android:id="@+id/txt2019"
+           android:textSize="15dp"
+           android:layout_marginTop="200dp"
+           android:layout_marginLeft="60dp"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="2021"
+           android:textStyle="bold"
+           android:textColor="#434343"
+           android:layout_below="@id/txt2019"
+           android:textSize="15dp"
+           android:layout_marginTop="3dp"
+           android:layout_marginLeft="60dp"/>
+
+       <androidx.cardview.widget.CardView
+           android:layout_width="8dp"
+           android:layout_height="8dp"
+           android:layout_marginLeft="140dp"
+           android:layout_marginTop="210dp"
+           app:cardBackgroundColor="#434343"
+           app:cardCornerRadius="180dp" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="STI College Lipa"
+           android:textColor="#434343"
+           android:textSize="15dp"
+           android:id="@+id/txtsti"
+           android:textStyle="bold"
+           android:layout_marginTop="204dp"
+           android:layout_marginLeft="160dp"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="-"
+           android:textColor="#434343"
+           android:textStyle="bold"
+           android:layout_marginTop="5dp"
+           android:layout_below="@id/txtsti"
+           android:layout_marginLeft="160dp"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="TNT - Codefest 1st place"
+           android:textColor="#434343"
+           android:textStyle="bold"
+           android:layout_marginTop="5dp"
+           android:layout_below="@id/txtsti"
+           android:layout_marginLeft="175dp"/>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="300dp">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_margin="20dp"
+               android:gravity="center_horizontal"
+               android:text="I graduated at STI College Lipa with the specialization of Information and communication techology (ICT)"
+               android:textColor="#434343"
+               android:elevation="20dp"
+               android:textSize="14dp"
+               android:textStyle="bold" />
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="70dp"
+               android:layout_height="70dp"
+               app:cardBackgroundColor="#fcbb6d"
+               app:cardCornerRadius="180dp" />
+
+
+       </LinearLayout>
+
+       <androidx.cardview.widget.CardView
+           android:layout_width="130dp"
+           android:layout_height="50dp"
+          android:layout_centerHorizontal="true"
+           android:layout_marginTop="-40dp"
+           app:cardBackgroundColor="#fcbb6d"
+           app:cardCornerRadius="50dp" />
+
+       <androidx.cardview.widget.CardView
+           android:layout_width="70dp"
+           android:layout_height="70dp"
+           android:layout_marginLeft="95dp"
+           android:layout_marginTop="150dp"
+           app:cardBackgroundColor="#fcbb6d"
+           app:cardCornerRadius="180dp" />
+
+       <Button
+           android:layout_width="200dp"
+           android:layout_height="35dp"
+           android:background="@drawable/round_corner"
+           android:text="More"
+           android:textSize="12dp"
+           android:elevation="10dp"
+           android:shadowColor="#000"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="400dp"
+           android:id="@+id/btnMore"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </RelativeLayout>
+
+
+</FrameLayout>

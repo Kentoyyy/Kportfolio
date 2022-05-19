@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4"
+    tools:context=".ProjectFragment">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:background="@drawable/styleprojectbg">
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            app:lottie_fileName="project.json"
+            android:layout_marginLeft="275dp"
+            android:layout_marginTop="175dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="Projects"
+            android:textColor="#434343"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_marginTop="60dp"
+                android:gravity="center_horizontal"
+                android:text=" There is still a lot to discover, create, and solve. That's why i'm striving to work on projects that bring tommorow to today."
+                android:textColor="#434343"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</FrameLayout>

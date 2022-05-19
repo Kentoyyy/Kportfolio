@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/interest"
+        android:title="Interest"
+        android:icon="@drawable/interest"/>
+
+    <item android:id="@+id/skills"
+        android:title="Skills"
+        android:icon="@drawable/skills"/>
+
+    <item android:id="@+id/about"
+        android:title="About"
+        android:icon="@drawable/ic_baseline_person_24"/>
+
+    <item android:id="@+id/education"
+        android:title="Education"
+        android:icon="@drawable/ic_baseline_school_24"/>
+
+    <item android:id="@+id/project"
+        android:title="Projects"
+        android:icon="@drawable/ic_baseline_smartphone_24"/>
+</menu>
